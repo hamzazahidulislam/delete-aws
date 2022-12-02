@@ -1,0 +1,18 @@
+# @format
+
+regions:
+  - eu-west-1
+  - global
+
+account-blocklist:
+  - '999999999999' # production
+
+accounts:
+  '00000000000000000': # aws-nuke-example
+    filters:
+      IAMUser:
+        - 'delete'
+      IAMUserPolicyAttachment:
+        - 'AdministratorAccess'
+      IAMUserAccessKey:
+        - 'AKIAWVG3R2L4VHUS2PGH'
