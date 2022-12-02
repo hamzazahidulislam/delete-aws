@@ -2,11 +2,11 @@
 
 regions:
   - global
-  - us-east-1 ## US EAST
-  - us-east-2 ## US EAST
-  - us-west-1 ## US WEST
-  - us-west-2 ## US WEST
-  - ca-central-1 ## CANDA
+  - us-east-1 ## US EAST 1
+  - us-east-2 ## US EAST 2
+  - us-west-1 ## US WEST 3
+  - us-west-2 ## US WEST 4
+  - ca-central-1 ## CANDA 1
   - eu-west-1 ## EU-WEST 1
   - eu-west-2 ## EU-WEST 2
   - eu-west-3 ## EU-WEST 3
@@ -18,7 +18,7 @@ regions:
   - ap-northeast-1 ## asia pacific 4
   - ap-northeast-2 ## asia pacific 5
   - ap-northeast-3 ## asia pacific 6
-  - sa-east-1 ## SA-EAST
+  - sa-east-1 ## SA-EAST 1
 
 account-blocklist:
   - '999999999999' # production
