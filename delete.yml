@@ -3,16 +3,17 @@
 regions:
   - eu-west-1
   - global
+  - us-east-1
+  - us-east-2
+  - us-west-1
+  - us-west-2
+  - us-gov-west-1
+  - ca-central-1
+  - eu-west-1
+  - eu-west-2
 
 account-blocklist:
   - '999999999999' # production
 
 accounts:
-  '00000000000000000': # aws-nuke-example
-    filters:
-      IAMUser:
-        - 'delete'
-      IAMUserPolicyAttachment:
-        - 'AdministratorAccess'
-      IAMUserAccessKey:
-        - 'AKIAWVG3R2L4VHUS2PGH'
+  '00000000000000000': {}
