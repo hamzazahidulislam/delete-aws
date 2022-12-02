@@ -1,16 +1,24 @@
 # @format
 
 regions:
-  - eu-west-1
   - global
-  - us-east-1
-  - us-east-2
-  - us-west-1
-  - us-west-2
-  - us-gov-west-1
-  - ca-central-1
-  - eu-west-1
-  - eu-west-2
+  - us-east-1 ## US EAST
+  - us-east-2 ## US EAST
+  - us-west-1 ## US WEST
+  - us-west-2 ## US WEST
+  - ca-central-1 ## CANDA
+  - eu-west-1 ## EU-WEST 1
+  - eu-west-2 ## EU-WEST 2
+  - eu-west-3 ## EU-WEST 3
+  - eu-central-1 ## EU-CENTRAL 4
+  - eu-north-1 ## EU-NORTH 5
+  - ap-southeast-1 ## asia pacific 1
+  - ap-southeast-2 ## asia pacific 2
+  - ap-south-1 ## asia pacific 3
+  - ap-northeast-1 ## asia pacific 4
+  - ap-northeast-2 ## asia pacific 5
+  - ap-northeast-3 ## asia pacific 6
+  - sa-east-1 ## SA-EAST
 
 account-blocklist:
   - '999999999999' # production
